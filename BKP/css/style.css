@@ -1,0 +1,234 @@
+/** ponle Stylo Nene*/
+
+
+body {
+  background: #fcfcfd;
+  color: #333;
+  font: 400 14px/29px "Ubuntu", sans-serif !important;
+  -webkit-text-size-adjust: none;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+
+h2 {
+  font-size: 45px;
+  font-weight: 700;
+  line-height: 48px;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 38px;
+}
+.h3 {
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 38px;
+}
+
+
+h4 {
+  font-size: 24px;
+  font-weight: 700;
+}
+
+
+h5 {
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+h6 {
+  font-size: 15px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+
+strong {
+  font-weight: 700;
+}
+
+.navbar{
+  background-color: #f7f7f7!important;
+}
+.bg-dark{
+  background-color: #f7f7f7  !important;
+}
+
+.nav-link{
+  color: black !important;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 13px  ;
+}
+
+
+.nav-link:hover{
+  color: #ec4560 !important;
+}
+
+/*==================  RD Parallax    ======================*/
+.parallax {
+  position: relative;
+  overflow: hidden;
+}
+.parallax h2,
+.parallax h5,
+.parallax h6,
+.parallax p {
+  color: #fff;
+}
+.parallax_image, .parallax_pattern {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  background-position: center center;
+  will-change: transform;
+}
+.parallax_image {
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+}
+.parallax_pattern {
+  background-repeat: repeat;
+}
+.parallax_cnt {
+  position: relative;
+}
+.parallax h2 + h6 {
+  margin-top: 16px;
+}
+.parallax h2 + p {
+  margin-top: 18px;
+}
+.parallax h6 + p {
+  margin-top: 16px;
+}
+.parallax .btn {
+  background: #ec4560x  ;
+}
+.parallax .btn:hover {
+  color: #ec4560;
+  background: #fff;
+}
+
+header {
+  background: #f7f7f7;
+}
+header .brand {
+  float: left;
+}
+header .nav {
+  float: right;
+}
+@media (max-width: 767px) {
+  header {
+    text-align: center;
+    padding-bottom: 24px;
+  }
+  header .brand, header .nav {
+    float: none;
+  }
+}
+
+.well {
+  padding-top: 56px;
+  padding-bottom: 65px;
+}
+.well3 {
+  padding-top: 154px;
+  padding-bottom: 162px;
+}
+
+.well2 {
+  padding-top: 81px;
+  padding-bottom: 111px;
+}
+
+
+p {
+  color: #525252;
+  font-weight: 300;
+  line-height: 23px
+
+}
+.OcultaElemento{
+  visibility: hidden;
+  display: none;
+}
+
+.MuestraElemento{
+  visibility: visible;
+  display:block;
+}
+a{
+  text-decoration: none !important;
+}
+a:hover{
+  color: none;
+}
+
+.list-group-item {
+    color: #333;
+}
+
+.modal-dialog {
+    width: 90% !important;
+}
+
+
+
+@media (max-width: 990px)
+{
+  .margenSuperior{
+    padding-top: 15px;
+  }
+}
+
+.txt1{
+  line-height: 23px
+}
+
+
+.Mirame{
+  cursor: pointer;
+}
+
+.Mirame:hover{
+  color: #dc3545 !important;
+}
+
+.Sizer {
+    width: auto !important;
+    height: 150px !important;
+}
+
+.Sizer_Mini {
+  cursor: pointer;
+    width: auto !important;
+    max-height: 100px !important;
+}
+
+
+.Sizer_Max {
+    width: auto !important;
+    max-height: 512px !important;
+}
+
+
+
+.navbar-dark .navbar-toggler {
+    color:  #525252 !important;
+    border-color: #525252 !important;
+}
