@@ -23,6 +23,6 @@ Sitio basico destinado a servir como catalogo de productos para la empresa.
 | <a href="http://jozzalex.com/" target="_blank">**Jozz Alex**</a> | 
 | :---: |
 | [![FVCproductions](https://avatars0.githubusercontent.com/u/9546606?v=3&s=200)](http://jozzalex.com/)    | 
-| <a href="https://github.com/rocanrolpsycho" target="_blank">`http://jozzalex.com/`</a> | 
+| <a href="http://jozzalex.com/" target="_blank">`http://jozzalex.com/`</a> | 
 
 
